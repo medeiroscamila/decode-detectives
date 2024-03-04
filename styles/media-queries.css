@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1200px) {
+  .main-container {
+      padding: 5%;
+      flex-direction: row;
+      gap: 20px;
+  }
+  
+  .original-text-section {
+      width: 100%;
+      margin-left: 0; 
+  }
+
+  .original-text-area {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .result-container {
+      width: 400px;
+      height: 550px; 
+      margin-right: 50px; 
+  }
+  
+  .processed-textarea {
+      width: 380px;
+      height: 290px;
+      padding: 20px;
+  }
+  
+  .footer-section {
+      height: auto;
+      padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .original-text-section,
+    .result-container {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .original-text-area {
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .processed-textarea {
+        width: calc(100% - 40px);
+        height: 300px;
+        padding: 20px;
+        overflow: hidden;
+    }
+}

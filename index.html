@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decode Detectives</title>
+  <link rel="shortcut icon" href="./assets/lupa.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/vars.css" />
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/media-queries.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="header-content">
+      <img src="./assets/aluraicon.png" alt="icon alura" class="icon-alura">
+      <h1 class="header-title"></h1>
+      <div class="instructions-icon" onclick="openInstructionsModal()">
+        <i class="fa-regular fa-circle-question"></i>
+        <span class="tooltip">Instruções</span>
+    </div>
+    </div>
+  </header>
+
+  <div id="instructionsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeInstructionsModal()">&times;</span>
+        <ol>
+          <li class="instruction-text" >Digite sua mensagem na <strong>caixa abaixo.</strong></li>
+          <li class="instruction-text" >Clique em <strong>"Criptografar"</strong> para transformar seu texto em uma mensagem secreta. </li>
+          <li class="instruction-text" >Ou clique em <strong>"Descriptografar"</strong> para ver o que está escrito em uma mensagem secreta.</li>
+      </ol>
+    </div>
+  </div>
+
+  <main class="main-container">
+    <div class="original-text-section">
+        <textarea id="original-text" class="original-text-area" placeholder="Digite seu texto..."></textarea>
+        <label class="original-text-label"><i class="fas fa-exclamation-circle"></i>Apenas letras minúsculas e sem acento!</label>
+
+        <div class="buttons-container">
+          <button class="btn-encrypt" onclick="encrypt()">Criptografar</button>
+          <button class="btn-decrypt" onclick="decrypt()">Descriptografar</button>
+        </div>
+    </div>
+      
+      <div class="result-container">
+        <textarea id="processed-text" class="processed-textarea" disabled></textarea>
+        <img src="./assets/jovemdetetive.png" alt="detetive" class="result-image">
+        <p id="processed-text-1" class="result-message__1">Nenhuma mensagem encontrada.</p>
+        <p id="processed-text-2" class="result-message__2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <button id="copyButton" class="btn-copy" onclick="copyToClipboard()">Copiar</button>
+      </div>
+  </main>
+
+  <footer class="footer-section">
+    <div class="footer-content">
+      <p class="copyright">&copy; 2024 Camila Medeiros | Desenvolvido por Alura Challenge - Oracle Next Education</p>
+      <p class="image-credits">Imagem gerada pela ferramenta de criação de imagens da <a class="image-credits-link" href="https://www.bing.com/images/create">Bing</a>.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

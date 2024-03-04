@@ -1,0 +1,20 @@
+:root {
+     /* Fonts */
+    --font-family: 'Exo', sans-serif;
+
+
+    /* Colors */
+    --color-primary: #F9B911;
+    --color-secondary: #EDB53F;
+    --gradient-start: #17282D;
+    --gradient-end: #283138;
+    --background-dark: #0E0E10;
+    --background-light: #262626;
+    --button-hover: #FFD569;
+    --text-white: #ffffff;
+
+
+   /* Sombra */
+
+    --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);   
+}
