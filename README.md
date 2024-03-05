@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
-[![MIT License][license-shield]][license-url]
+[![MIT License](https://img.shields.io/github/license/medeiroscamila/decode-detectives)](https://github.com/medeiroscamila/decode-detectives/blob/main/LICENSE)
 
 <div align="center">
   
-  <h1 align="center">Decode Detectives</h1>
+  <h1 align="center">Decode Detectives 🕵️‍♂️</h1>
   
 </div>
 
@@ -66,7 +66,7 @@ Este projeto foi desenvolvido como parte do Challenge One do programa Oracle Nex
 
 
 <!-- GETTING STARTED -->
-## Funcionalidades
+##  Funcionalidades ⚙️
 
 :heavy_check_mark: `Funcionalidade 1:` Suporta apenas letras minúsculas, excluindo acentos e caracteres especiais.
 
@@ -97,7 +97,7 @@ Este projeto foi desenvolvido como parte do Challenge One do programa Oracle Nex
 
 
 <!-- USAGE EXAMPLES -->
-## Instruções de Utilização
+## Instruções de Utilização 📋
 
 Para utilizar o decodificador, siga estas instruções:
 
@@ -118,7 +118,7 @@ Para utilizar o decodificador, siga estas instruções:
 
 
 <!-- ROADMAP -->
-## Acesso ao Projeto
+## Acesso ao Projeto 📁
 
 
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/medeiroscamila/decode-detectives).
@@ -126,7 +126,7 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/med
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Desenvolvedores
+## Desenvolvedores 👩‍💻
 
 
  [Camila Medeiros](https://github.com/medeiroscamila)
@@ -136,11 +136,11 @@ Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/med
 
 
 <!-- LICENSE -->
-## Licença
+## Licença 📄
 
-:small_blue_diamond: The [MIT License](https://github.com/medeiroscamila/decode-detectives/blob/main/LICENSE) (MIT)
+The [MIT License](https://github.com/medeiroscamila/decode-detectives/blob/main/LICENSE) (MIT)
 
-:small_blue_diamond: Copyright :copyright: 2024 - Decode Detectives
+Copyright :copyright: 2024 - Decode Detectives
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
